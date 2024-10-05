@@ -17,8 +17,4 @@ public class Tv {
     public void channelDown() {
         channel--;
     }
-
-    public byte controllerViewer() {
-        return controller;
-    }
 }
