@@ -4,7 +4,7 @@ public class Tv {
     public String color;
     public boolean power;
     public int channel;
-    public static int controller;
+    public static byte controller;
 
     public void power() {
         power = !power;
@@ -18,7 +18,7 @@ public class Tv {
         channel--;
     }
 
-    public int controllerViewer() {
+    public byte controllerViewer() {
         return controller;
     }
 }
