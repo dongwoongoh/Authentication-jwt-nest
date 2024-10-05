@@ -1,19 +1,19 @@
 package tv;
 
 public class Tv {
-    String color;
-    boolean power;
-    int channel;
+    public String color;
+    public boolean power;
+    public int channel;
 
-    void power() {
+    public void power() {
         power = !power;
     }
 
-    void channelUp() {
+    public void channelUp() {
         channel++;
     }
 
-    void channelDown() {
+    public void channelDown() {
         channel--;
     }
 }
